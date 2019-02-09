@@ -13,7 +13,7 @@ public class MainController {
 	@GetMapping("/")
 	public String home() {
 		
-		LOGGER.debug("Inside home().");
+		LOGGER.debug("Inside home()."); //Comment added.
 		return "home";
 		
 	}
